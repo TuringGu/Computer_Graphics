@@ -21,3 +21,17 @@ inline void LineDDA(int x1, int y1, int x2, int y2, int color)
 		y += dy;
 	}
 }
+
+// The test function
+inline void LineDDATest()
+{
+	int x1, y1, x2, y2;
+	x1 = y1 = x2 = y2 = 0;	// initialization
+	cout << "Digital differential analyzer to plot straight line" << endl;
+	cout << "Please input x1, y1, x2, y2:" << endl;
+	cin >> x1 >> y1 >> x2 >> y2;
+	initgraph(1280, 720);
+	LineDDA(x1, y1, x2, y2, YELLOW);
+	getch();
+	closegraph();
+}

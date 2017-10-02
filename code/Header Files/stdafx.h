@@ -8,12 +8,13 @@
 #include "targetver.h"
 
 #include <stdio.h>
+#include <iostream>
 #include <tchar.h>
 #include <math.h>
 #include <graphics.h>
 #include <conio.h>
 
-
+using namespace std;
 
 
 // TODO: reference additional headers your program requires here
