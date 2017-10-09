@@ -3,7 +3,7 @@
 #include "stdafx.h"
 
 // Point-to-Point Comparison Method to print the straight line
-void PrintLine(int x1, int y1, int x2, int y2, int color)
+inline void PrintLine(int x1, int y1, int x2, int y2, int color)
 {
 	int x, y, xA, yA;
 	if (y1 > y2)

@@ -4,7 +4,7 @@
 #include "CirclePlot.h"
 
 // Bresenham Method to print the circle
-void Bres_Circle(int x0, int y0, double r, int color)
+inline void Bres_Circle(int x0, int y0, double r, int color)
 {
 	int x, y, d;
 	x = 0;

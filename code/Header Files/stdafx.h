@@ -9,10 +9,14 @@
 
 #include <stdio.h>
 #include <iostream>
+#include <GL/glut.h>
 #include <tchar.h>
 #include <math.h>
 #include <graphics.h>
 #include <conio.h>
+#include<malloc.h>
+#include<stdlib.h> 
+#include<windows.h>
 
 using namespace std;
 
