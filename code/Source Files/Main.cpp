@@ -9,6 +9,7 @@
 #include "MidPointCircle.h"
 #include "AngleDiscreteArc.h"
 #include "FloodFill.h"
+#include "LiangBarskyClip.h"
 
 //void main(int argc, char *argv[])
 //{
@@ -25,5 +26,6 @@
 // The test function
 int main()
 {
-	FloodFill4_NonRecursiveTest();
+	L_B_LineClipTest();
+	
 }
