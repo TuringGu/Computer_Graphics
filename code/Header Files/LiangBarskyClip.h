@@ -4,7 +4,7 @@
 #include "LineDDA.h"
 
 // calculate cross points parameters
-int clipTest(float p, float q, float &u1, float &u2)
+inline int clipTest(float p, float q, float &u1, float &u2)
 {
 	float r;
 	int retVal = 1;
@@ -33,7 +33,7 @@ int clipTest(float p, float q, float &u1, float &u2)
 
 /* x1, y1, x2, y2 is the straight line end points coordinates,
 XL, XR, YB, YT is the information of windows' edges */
-int L_B_LineClip(float &x1, float &y1, float &x2, float &y2,
+inline int L_B_LineClip(float &x1, float &y1, float &x2, float &y2,
 	float XL, float XR, float YB, float YT)
 {
 	/* u1: start point parameter, initial value is 0 
